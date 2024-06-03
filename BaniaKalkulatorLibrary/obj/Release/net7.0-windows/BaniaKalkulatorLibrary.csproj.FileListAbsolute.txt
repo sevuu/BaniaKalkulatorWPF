@@ -1,0 +1,11 @@
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\bin\Release\net7.0-windows\BaniaKalkulatorLibrary.deps.json
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\bin\Release\net7.0-windows\BaniaKalkulatorLibrary.dll
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\bin\Release\net7.0-windows\BaniaKalkulatorLibrary.pdb
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Release\net7.0-windows\BaniaKalkulatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Release\net7.0-windows\BaniaKalkulatorLibrary.AssemblyInfoInputs.cache
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Release\net7.0-windows\BaniaKalkulatorLibrary.AssemblyInfo.cs
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Release\net7.0-windows\BaniaKalkulatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Release\net7.0-windows\BaniaKalkulatorLibrary.dll
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Release\net7.0-windows\refint\BaniaKalkulatorLibrary.dll
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Release\net7.0-windows\BaniaKalkulatorLibrary.pdb
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Release\net7.0-windows\ref\BaniaKalkulatorLibrary.dll

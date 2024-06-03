@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaniaKalkulator", "BaniaKalkulator\BaniaKalkulator.csproj", "{54253594-7955-4688-9BA0-41EC45F33AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaniaKalkulatorLibrary", "BaniaKalkulatorLibrary\BaniaKalkulatorLibrary.csproj", "{1126CDA4-1189-405E-B84E-7BDC66A0543E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54253594-7955-4688-9BA0-41EC45F33AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54253594-7955-4688-9BA0-41EC45F33AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54253594-7955-4688-9BA0-41EC45F33AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54253594-7955-4688-9BA0-41EC45F33AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1126CDA4-1189-405E-B84E-7BDC66A0543E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1126CDA4-1189-405E-B84E-7BDC66A0543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1126CDA4-1189-405E-B84E-7BDC66A0543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1126CDA4-1189-405E-B84E-7BDC66A0543E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91180EAB-F9F2-4B1E-9B45-EC68FF430A2F}
+	EndGlobalSection
+EndGlobal

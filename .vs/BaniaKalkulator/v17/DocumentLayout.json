@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|solutionrelative:baniakalkulator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulator\\addbeveragewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|solutionrelative:baniakalkulator\\addbeveragewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|solutionrelative:baniakalkulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1126CDA4-1189-405E-B84E-7BDC66A0543E}|BaniaKalkulatorLibrary\\BaniaKalkulatorLibrary.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulatorlibrary\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1126CDA4-1189-405E-B84E-7BDC66A0543E}|BaniaKalkulatorLibrary\\BaniaKalkulatorLibrary.csproj|solutionrelative:baniakalkulatorlibrary\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulator\\addbeveragewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|solutionrelative:baniakalkulator\\addbeveragewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 255,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BaniaKalkulator\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BaniaKalkulator\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA0wB8AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T15:43:35.986Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBeverageWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\AddBeverageWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BaniaKalkulator\\AddBeverageWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\AddBeverageWindow.xaml.cs",
+              "RelativeToolTip": "BaniaKalkulator\\AddBeverageWindow.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:23:56.464Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BaniaKalkulator\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml",
+              "RelativeToolTip": "BaniaKalkulator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-03T15:43:37.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Beverage.cs",
+              "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulatorLibrary\\Beverage.cs",
+              "RelativeDocumentMoniker": "BaniaKalkulatorLibrary\\Beverage.cs",
+              "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulatorLibrary\\Beverage.cs",
+              "RelativeToolTip": "BaniaKalkulatorLibrary\\Beverage.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwCoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:14:15.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddBeverageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\AddBeverageWindow.xaml",
+              "RelativeDocumentMoniker": "BaniaKalkulator\\AddBeverageWindow.xaml",
+              "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\AddBeverageWindow.xaml",
+              "RelativeToolTip": "BaniaKalkulator\\AddBeverageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-03T16:20:50.775Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

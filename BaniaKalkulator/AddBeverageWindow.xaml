@@ -1,0 +1,21 @@
+﻿<Window x:Class="BaniaKalkulator.AddBeverageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaniaKalkulator"
+        mc:Ignorable="d"
+        Title="AddBeverageWindow" Height="400" Width="300">
+    <Grid>
+        <TextBox x:Name="tbName" HorizontalAlignment="Center" Height="40" Margin="0,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+        <TextBox x:Name="tbMl" HorizontalAlignment="Center" Height="40" Margin="0,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+        <TextBox x:Name="tbVolt" HorizontalAlignment="Center" Height="40" Margin="0,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+        <TextBox x:Name="tbPrice" HorizontalAlignment="Center" Height="40" Margin="0,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+        <Button x:Name="AddBtn" Content="Dodaj" HorizontalAlignment="Center" Height="40" Margin="0,284,0,0" VerticalAlignment="Top" Width="140" Click="AddBtn_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,87,0,0" TextWrapping="Wrap" Text="Ml" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="Nazwa" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,146,0,0" TextWrapping="Wrap" Text="Woltaż" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,208,0,0" TextWrapping="Wrap" Text="Cena" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
