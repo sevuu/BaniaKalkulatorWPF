@@ -11,6 +11,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using BaniaKalkulatorLibrary;
 using System.Linq;
+using Microsoft.Win32;
+using System.Reflection;
 
 namespace BaniaKalkulator
 {
@@ -47,6 +49,15 @@ namespace BaniaKalkulator
             }
         }
 
+        private void DelBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if(dataGrid.SelectedItem is Beverage doUsuniecia)
+            {
+                beverages.Remove(doUsuniecia);
+                dataGrid.Items.Refresh();
+            }
+        }
+
         private void KalkulujBtn_Click(object sender, RoutedEventArgs e)
         {
             foreach (var beverage in beverages)
@@ -60,5 +71,49 @@ namespace BaniaKalkulator
             MessageBox.Show($"Najopłacalniejszy alkohol: {najlepsze?.Nazwa}");
 
         }
+
+        private void SaveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog d = new SaveFileDialog() { FileName = "TaniaBaniaExport", DefaultExt = ".json", Filter = "Documents in JSON format (.json)|*.json" };
+            if (d.ShowDialog() == true)
+            {
+                if (d.FilterIndex == 1) { Save.JSON(beverages, d.FileName); }
+            }
+        }
+
+        private void importFromFileLogic(String methodName, String path)
+        {
+            MethodInfo ?method = typeof(Load).GetMethod(methodName);
+            if (method != null)
+            {
+                try
+                {
+                    beverages = (List<Beverage>)method.Invoke(null, new object[] { path });
+
+                    dataGrid.ItemsSource = beverages;
+                    dataGrid.Items.Refresh();
+                    MessageBox.Show("Importowanie zakończyło się sukcesem", "Information");
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(e.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nie mozna wskazac metody");
+            }
+        }
+
+        private void LoadBtn_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog d = new OpenFileDialog() { FileName = "TaniaBaniaExport", DefaultExt = ".txt", Filter = "Documents in JSON format (.json)|*.json" };
+            if (d.ShowDialog() == true)
+            {
+                if (d.FilterIndex == 1) { importFromFileLogic("JSON", d.FileName); }
+            }
+        }
+
+   
     }
 }

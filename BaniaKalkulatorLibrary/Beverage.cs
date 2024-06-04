@@ -11,7 +11,7 @@ namespace BaniaKalkulatorLibrary
     public class Beverage
     {
         public string _nazwa;
-        private double _ml, _procent, _cena, _spejson, _etanol;
+        private double _ml, _procent, _cena, _spejson, _etanol, tmpprocent;
         public Beverage()
         {
             _nazwa = string.Empty;
@@ -20,6 +20,7 @@ namespace BaniaKalkulatorLibrary
             _cena = 0.0;
             _spejson = 0.0;
             _etanol = 0.0;
+            tmpprocent = 0.0;
         }
         public Beverage(string nazwa, double ml, double procent, double cena, double spejson, double etanol)
         {
@@ -33,8 +34,7 @@ namespace BaniaKalkulatorLibrary
 
         public void Spejsonowanie()
         {
-            double tmpprocent = _procent;
-
+            tmpprocent = _procent;
             if (_ml != 500.0)
             {
                 double podzial = 500.0 / _ml;
@@ -46,7 +46,7 @@ namespace BaniaKalkulatorLibrary
 
         public void Etanolowanie()
         {
-            double realprocent = _procent / 100;
+            double realprocent = tmpprocent / 100;
             double ilealko = realprocent * _ml;
             if (_ml != 500.0)
             {                   

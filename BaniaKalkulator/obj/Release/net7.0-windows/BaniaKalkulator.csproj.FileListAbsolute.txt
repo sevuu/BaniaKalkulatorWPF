@@ -24,3 +24,4 @@ C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\obj\Release\net7.0-windows\BaniaKalkulator.pdb
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\obj\Release\net7.0-windows\BaniaKalkulator.genruntimeconfig.cache
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\obj\Release\net7.0-windows\ref\BaniaKalkulator.dll
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\obj\Release\net7.0-windows\BaniaKalkulator.sourcelink.json

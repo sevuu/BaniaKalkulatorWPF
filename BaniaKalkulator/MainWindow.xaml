@@ -5,19 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BaniaKalkulator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="450">
+        ResizeMode="CanMinimize"
+        Title="TaniaBania" Height="600" Width="450">
     <StackPanel x:Name="stackPanel">
         <Grid Height="584">
             <Button x:Name="KalkulujBtn" Content="Kalkuluj" HorizontalAlignment="Center" Margin="0,484,0,0" VerticalAlignment="Top" Height="45" Width="110" Click="KalkulujBtn_Click"/>
             <Menu Margin="0,0,0,565">
-                <MenuItem Header="Trunek">
-                    <MenuItem Header="_Dodaj"/>
+                <MenuItem Header="_Plik">
+                    <MenuItem Header="_Eksportuj" Click="SaveBtn_Click"/>
+                    <MenuItem Header="_Importuj" Click="LoadBtn_Click"/>
+                </MenuItem>
+                <MenuItem Header="_Trunek">
+                    <MenuItem Header="_Dodaj" Click="AddBtn_Click"/>
+                    <MenuItem Header="_Usun" Click="DelBtn_Click"/>
                 </MenuItem>
             </Menu>
-            <DataGrid x:Name="dataGrid" HorizontalAlignment="Center" Height="360" Margin="0,99,0,0" VerticalAlignment="Top" Width="430" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+            <DataGrid x:Name="dataGrid" HorizontalAlignment="Center" Height="360" Margin="0,99,0,0" VerticalAlignment="Top" Width="430" d:ItemsSource="{d:SampleData ItemCount=5}" RowHeight="30"/>
             <Grid HorizontalAlignment="Center" Height="65" Margin="0,29,0,0" VerticalAlignment="Top" Width="430">
                 <Button x:Name="AddBtn" Content="Dodaj" Height="45" Margin="68,0,0,0" VerticalAlignment="Center" Click="AddBtn_Click" HorizontalAlignment="Left" Width="95"/>
-                <Button x:Name="DelBtn" Content="Usuń" HorizontalAlignment="Center" Height="45" VerticalAlignment="Center" Width="94" IsEnabled="False"/>
+                <Button x:Name="DelBtn" Content="Usuń" HorizontalAlignment="Center" Height="45" VerticalAlignment="Center" Width="94" Click="DelBtn_Click"/>
                 <Button x:Name="EditBtn" Content="Edytuj" Height="45" Margin="267,0,68,0" VerticalAlignment="Center" IsEnabled="False"/>
             </Grid>
 
