@@ -24,3 +24,4 @@ C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\obj\Debug\net7.0-windows\AddBeverageWindow.g.cs
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\obj\Debug\net7.0-windows\AddBeverageWindow.baml
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\obj\Debug\net7.0-windows\BaniaKal.4FCF35B4.Up2Date
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulator\obj\Debug\net7.0-windows\BaniaKalkulator.sourcelink.json

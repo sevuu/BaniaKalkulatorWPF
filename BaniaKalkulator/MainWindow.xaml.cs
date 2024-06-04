@@ -13,6 +13,7 @@ using BaniaKalkulatorLibrary;
 using System.Linq;
 using Microsoft.Win32;
 using System.Reflection;
+using System.IO;
 
 namespace BaniaKalkulator
 {
@@ -22,10 +23,11 @@ namespace BaniaKalkulator
     public partial class MainWindow : Window
     {
         public IList<Beverage> beverages { get; set; }
-
+        string DataFile = "database.json";
         public MainWindow()
         {
             InitializeComponent();
+
             beverages = new List<Beverage>();
 
             dataGrid.Columns.Add(new DataGridTextColumn() { Header = "Nazwa", Binding = new Binding("Nazwa") });
@@ -36,6 +38,13 @@ namespace BaniaKalkulator
             dataGrid.Columns.Add(new DataGridTextColumn() { Header = "Etanol (ml)", Binding = new Binding("Etanol") });
             dataGrid.AutoGenerateColumns = false;
             dataGrid.ItemsSource = beverages;
+
+            if (!File.Exists(DataFile))
+            {
+                File.WriteAllText(DataFile, "[]");
+                Save.JSON(beverages, DataFile);
+            }
+            importFromFileLogic("JSON", DataFile);
         }
 
         private void AddBtn_Click(object sender, RoutedEventArgs e)
@@ -60,16 +69,23 @@ namespace BaniaKalkulator
 
         private void KalkulujBtn_Click(object sender, RoutedEventArgs e)
         {
+            bool tmp=false;
             foreach (var beverage in beverages)
             {
+                if (beverage.Nazwa.ToLower() == "żubr" || beverage.Nazwa.ToLower() == "zubr") { tmp = true; }
                 beverage.Spejsonowanie();
                 beverage.Etanolowanie();
                 dataGrid.Items.Refresh();
             }
             Beverage? najlepsze = beverages.OrderByDescending(b => b.Spejson).FirstOrDefault();
 
-            MessageBox.Show($"Najopłacalniejszy alkohol: {najlepsze?.Nazwa}");
+            if (tmp == true && (najlepsze?._nazwa.ToLower() != "żubr" || najlepsze?._nazwa.ToLower() != "zubr"))
+            {
+                MessageBox.Show($"Najopłacalniejszy alkohol: {najlepsze?.Nazwa}, ale powinieneś kupić Żubra.");
+            } else 
+                MessageBox.Show($"Najopłacalniejszy alkohol: {najlepsze?.Nazwa}");
 
+            Save.JSON(beverages, DataFile);
         }
 
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
@@ -92,7 +108,8 @@ namespace BaniaKalkulator
 
                     dataGrid.ItemsSource = beverages;
                     dataGrid.Items.Refresh();
-                    MessageBox.Show("Importowanie zakończyło się sukcesem", "Information");
+                    if(path != DataFile)
+                        MessageBox.Show("Importowanie zakończyło się sukcesem", "Information");
                 }
                 catch (Exception e)
                 {

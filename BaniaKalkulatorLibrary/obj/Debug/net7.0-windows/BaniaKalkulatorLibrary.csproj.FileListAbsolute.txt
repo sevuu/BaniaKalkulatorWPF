@@ -9,3 +9,4 @@ C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorL
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Debug\net7.0-windows\refint\BaniaKalkulatorLibrary.dll
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Debug\net7.0-windows\BaniaKalkulatorLibrary.pdb
 C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Debug\net7.0-windows\ref\BaniaKalkulatorLibrary.dll
+C:\Users\Rodi\Documents\Szkola\ProjektyPoboczne\BaniaKalkulator\BaniaKalkulatorLibrary\obj\Debug\net7.0-windows\BaniaKalkulatorLibrary.sourcelink.json
