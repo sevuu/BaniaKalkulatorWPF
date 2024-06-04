@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "BaniaKalkulator\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml.cs",
               "RelativeToolTip": "BaniaKalkulator\\MainWindow.xaml.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwCsAAAAyAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwFEAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T15:43:35.986Z",
               "IsPinned": true,
@@ -61,8 +61,7 @@
               "ViewState": "AQIAAAcAAAAAAAAAAAAqwB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T16:23:56.464Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -74,8 +73,7 @@
               "RelativeToolTip": "BaniaKalkulatorLibrary\\Load.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:25:30.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T13:25:30.322Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml",
               "RelativeToolTip": "BaniaKalkulator\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-03T15:43:37.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T15:43:37.895Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "BaniaKalkulatorLibrary\\Beverage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T16:14:15.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T16:14:15.446Z"
             }
           ]
         }

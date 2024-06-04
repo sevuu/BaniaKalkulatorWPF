@@ -79,9 +79,9 @@ namespace BaniaKalkulator
             }
             Beverage? najlepsze = beverages.OrderByDescending(b => b.Spejson).FirstOrDefault();
 
-            if (tmp == true && (najlepsze?._nazwa.ToLower() != "żubr" || najlepsze?._nazwa.ToLower() != "zubr"))
+            if (tmp == true && (najlepsze?._nazwa.ToLower() != "żubr" && najlepsze?._nazwa.ToLower() != "zubr"))
             {
-                MessageBox.Show($"Najopłacalniejszy alkohol: {najlepsze?.Nazwa}, ale powinieneś kupić Żubra.");
+                MessageBox.Show($"Najopłacalniejszy alkohol: {najlepsze?.Nazwa}, ale powinieneś kupić Żuberka :3.");
             } else 
                 MessageBox.Show($"Najopłacalniejszy alkohol: {najlepsze?.Nazwa}");
 
