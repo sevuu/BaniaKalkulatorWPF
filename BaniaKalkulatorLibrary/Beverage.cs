@@ -41,7 +41,7 @@ namespace BaniaKalkulatorLibrary
                 tmpprocent = tmpprocent / podzial;
             }
             double wspolczynnik = tmpprocent / _cena;
-            _spejson = wspolczynnik;
+            _spejson = double.Round(wspolczynnik, 3);
         }
 
         public void Etanolowanie()
@@ -53,7 +53,7 @@ namespace BaniaKalkulatorLibrary
                 double podzial = 500.0 / _ml;
                 ilealko = ilealko * podzial;
             }
-            _etanol = ilealko;
+           _etanol = double.Round(ilealko,3);
         }
 
         public string Nazwa

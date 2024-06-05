@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaniaKalkulatorLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90231c119a25352d1e7f508f69d17f3c4f4335d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a65a5b2816116375fe15205ead1e91438740e1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaniaKalkulatorLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaniaKalkulatorLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

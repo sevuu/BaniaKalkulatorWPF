@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1126CDA4-1189-405E-B84E-7BDC66A0543E}|BaniaKalkulatorLibrary\\BaniaKalkulatorLibrary.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulatorlibrary\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1126CDA4-1189-405E-B84E-7BDC66A0543E}|BaniaKalkulatorLibrary\\BaniaKalkulatorLibrary.csproj|solutionrelative:baniakalkulatorlibrary\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|solutionrelative:baniakalkulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|solutionrelative:baniakalkulator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1126CDA4-1189-405E-B84E-7BDC66A0543E}|BaniaKalkulatorLibrary\\BaniaKalkulatorLibrary.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulatorlibrary\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1126CDA4-1189-405E-B84E-7BDC66A0543E}|BaniaKalkulatorLibrary\\BaniaKalkulatorLibrary.csproj|solutionrelative:baniakalkulatorlibrary\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|c:\\users\\rodi\\documents\\szkola\\projektypoboczne\\baniakalkulator\\baniakalkulator\\addbeveragewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{54253594-7955-4688-9BA0-41EC45F33AEB}|BaniaKalkulator\\BaniaKalkulator.csproj|solutionrelative:baniakalkulator\\addbeveragewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 255,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "BaniaKalkulator\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml.cs",
               "RelativeToolTip": "BaniaKalkulator\\MainWindow.xaml.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwFEAAABwAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAFEAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T15:43:35.986Z",
               "IsPinned": true,
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddBeverageWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\AddBeverageWindow.xaml.cs",
               "RelativeDocumentMoniker": "BaniaKalkulator\\AddBeverageWindow.xaml.cs",
@@ -65,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Load.cs",
               "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulatorLibrary\\Load.cs",
               "RelativeDocumentMoniker": "BaniaKalkulatorLibrary\\Load.cs",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulator\\MainWindow.xaml",
               "RelativeDocumentMoniker": "BaniaKalkulator\\MainWindow.xaml",
@@ -99,15 +99,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Beverage.cs",
               "DocumentMoniker": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulatorLibrary\\Beverage.cs",
               "RelativeDocumentMoniker": "BaniaKalkulatorLibrary\\Beverage.cs",
               "ToolTip": "C:\\Users\\Rodi\\Documents\\Szkola\\ProjektyPoboczne\\BaniaKalkulator\\BaniaKalkulatorLibrary\\Beverage.cs",
               "RelativeToolTip": "BaniaKalkulatorLibrary\\Beverage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAiAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAA5wDoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T16:14:15.446Z"
+              "WhenOpened": "2024-06-03T16:14:15.446Z",
+              "EditorCaption": ""
             }
           ]
         }
